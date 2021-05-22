@@ -1,0 +1,31 @@
+<HdView/>
+<view class="rankingBox">
+    <view class="topBox">
+      <view class="text">
+        <text class="txt-1">爱心榜</text>
+        <text class="txt-2">人人都是爱心大使</text>
+      </view>
+    </view>
+
+    <view class="ranking">
+      <navigator url="榜单" wx:for="{{10}}" wx:key="index">
+        <image src="/storage/images/heart-h.png"></image>
+        <view class="textBox">
+          <view class="Introduction">
+            <view class="name">网名</view>
+            <view class="departments">院系</view>
+          </view>
+
+          <view class="declarationBox">
+            <view class="declarationName">宣言 :</view>
+            <view class="declaration">爱是搭起友谊的桥梁，是人们心中永恒不变的璀璨明珠。</view>
+          </view>
+
+          <view class="value">
+            <view class="achievement">成就</view>
+            <view class="num">3.5</view>
+          </view>
+        </view>
+      </navigator>
+    </view>
+</view>

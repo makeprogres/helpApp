@@ -1,0 +1,18 @@
+<view class="topBox">
+  <view class="text">
+    <text class="txt-1">感谢信</text>
+    <text class="txt-2">感谢有你</text>
+  </view>
+</view>
+
+<view class="notesBox">
+  <navigator class="note" wx:for="{{8}}" wx:key="index">
+    <view class="name">
+      <text class="txt">感谢信是重要的礼仪文书，是向帮助、关心和支持过自己的集体</text>
+      <text class="time">咫尺天涯  12分钟前</text>
+    </view>
+    <view  class="img">
+      <image src="/storage/images/heart-h.png"></image>
+    </view>
+  </navigator>
+</view>
